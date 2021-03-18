@@ -3,6 +3,9 @@ import json
 
 
 class DatabaseConnector:
+    # aggregate root
+
+    
     def __init__(self, config_path="./"):
         self.mysql = None
         self.config_path = config_path
